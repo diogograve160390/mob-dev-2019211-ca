@@ -4,17 +4,17 @@ import { FormsModule } from '@angular/forms';
 
 import { IonicModule } from '@ionic/angular';
 
-import { DeathCountPageRoutingModule } from './death-count-routing.module';
+import { DeathsPageRoutingModule } from './deaths-routing.module';
 
-import { DeathCountPage } from './death-count.page';
+import { DeathsPage } from './deaths.page';
 
 @NgModule({
   imports: [
     CommonModule,
     FormsModule,
     IonicModule,
-    DeathCountPageRoutingModule
+    DeathsPageRoutingModule
   ],
-  declarations: [DeathCountPage]
+  declarations: [DeathsPage]
 })
-export class DeathCountPageModule {}
+export class DeathsPageModule {}
